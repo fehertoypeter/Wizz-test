@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Irányválasztó játék</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="game-container">
+      <div id="cheat-container">
+        <button id="cheat-toggle" class="accordion-button">Show Cheat</button>
+        <div id="cheat-content" class="accordion-content">
+          <p>
+            <!--    Spatial Orientation I Module<br /><br />
+
+            In this module, your spatial orientation skills will be assessed.
+            You will see sketches of a simple compass, and your task will be to
+            determine the direction in which the compass needle points. Only one
+            direction will be marked on each compass. Watch out — the indicated
+            (inter)cardinal direction will not always be located as on actual
+            maps (i.e., North - up, South - down); its location on the compass
+            may vary randomly. Please provide your answer by choosing the
+            correct (inter)cardinal direction from the options.<br /><br />
+
+            You will have 50 tasks and 10 minutes to answer as many as you
+            can.<br /><br /><br />-->
+
+            N NE E SE S SW W NW
+          </p>
+        </div>
+      </div>
+
+      <img id="random-image" src="" alt="irány kép" />
+      <div id="buttons-container">
+        <button class="direction-button" data-direction="N">N</button>
+        <button class="direction-button" data-direction="NE">NE</button>
+        <button class="direction-button" data-direction="E">E</button>
+        <button class="direction-button" data-direction="SE">SE</button>
+        <button class="direction-button" data-direction="S">S</button>
+        <button class="direction-button" data-direction="SW">SW</button>
+        <button class="direction-button" data-direction="W">W</button>
+        <button class="direction-button" data-direction="NW">NW</button>
+      </div>
+      <button id="new-challenge">Új feladvány</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
